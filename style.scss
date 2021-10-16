@@ -1,3 +1,4 @@
+@use 'anidacion';
 // VARIABLES
 $color-pricipal: #000;
 $color-h1: red;
@@ -12,16 +13,6 @@ h1 {
 
 p {
     color: $color-p;
-    font-size: 30px;
+    font-size: 40px;
 }
 
-//Anidacion
-.caja {
-    h2 {
-        color: yellow;
-    }
-    p{
-        text-decoration: underline;
-        font-size: 20px;
-    }
-}
