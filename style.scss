@@ -1,0 +1,15 @@
+// VARIABLES
+$color-pricipal: #000;
+$color-h1: red;
+$color-p: white;
+body {
+    background: $color-pricipal;
+}
+
+h1 {
+    color: $color-h1;
+}
+
+p {
+    color: $color-p;
+}
