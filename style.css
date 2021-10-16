@@ -1,3 +1,11 @@
+.caja h2 {
+  color: yellow;
+}
+.caja p {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
 body {
   background: #000;
 }
@@ -8,15 +16,7 @@ h1 {
 
 p {
   color: white;
-  font-size: 30px;
-}
-
-.caja h2 {
-  color: yellow;
-}
-.caja p {
-  text-decoration: underline;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
