@@ -8,6 +8,15 @@ h1 {
 
 p {
   color: white;
+  font-size: 30px;
+}
+
+.caja h2 {
+  color: yellow;
+}
+.caja p {
+  text-decoration: underline;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
