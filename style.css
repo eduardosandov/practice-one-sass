@@ -1,29 +1,21 @@
-.caja h2 {
-  color: yellow;
-}
-.caja p {
-  text-decoration: underline;
-  font-size: 20px;
-}
+/* Error: No argument named $color-fondo.
+ *     ,
+ * 22  | @mixin caja_personalizada {
+ *     |        ================== declaration
+ * ... |
+ * 36  |     @include caja_personalizada($color-fondo: white);
+ *     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation
+ *     '
+ *   style.scss 36:5  caja-personalizada()
+ *   style.scss 36:5  root stylesheet */
 
-body {
-  background: #000;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: No argument named $color-fondo.\a     \2577 \a 22  \2502  @mixin caja_personalizada {\d\a     \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a... \2502 \a 36  \2502      @include caja_personalizada($color-fondo: white);\d\a     \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a     \2575 \a   style.scss 36:5  caja-personalizada()\a   style.scss 36:5  root stylesheet";
 }
-
-h1 {
-  color: red;
-}
-
-p {
-  color: white;
-  font-size: 40px;
-}
-
-.caja {
-  background: red;
-  border: 4px solid white;
-  box-shadow: 0px 0px 2px black;
-  color: red;
-}
-
-/*# sourceMappingURL=style.css.map */
